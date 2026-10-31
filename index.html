@@ -1,11 +1,20 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b5d3b"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><link rel="stylesheet" href="style.css"><title>ITQAN QURAN</title></head><body>
-<header><button id="back" hidden>←</button><h1 id="title">ITQAN QURAN</h1></header>
-<main>
-<section id="v-list"><input id="q" type="search" autocomplete="off"><div id="surahs"></div></section>
-<section id="v-read" hidden><div class="bar"><label><input type="checkbox" id="only"> <span data-t="only"></span></label><b id="cnt"></b></div><button id="dl" class="sec" data-t="dl"></button><small class="muted" data-t="leg"></small><div id="verses"></div>
-<div id="dock"><div class="row"><button id="play" data-t="play"></button><button id="rep">↻</button><button id="mic" data-t="mic"></button></div><div class="row"><button id="learn" class="sec"></button><button id="fav" class="sec"></button></div><div id="fb"></div></div></section>
-<section id="v-prog" hidden><div id="ring"><span id="pct"></span></div><div id="stats"></div><h3 data-t="favs"></h3><div id="favlist"></div></section>
-<section id="v-set" hidden><h3 data-t="lang"></h3><select id="lang"><option value="fr">Français</option><option value="en">English</option><option value="ar">العربية</option></select><p class="note" data-t="note"></p><button id="delaudio" class="sec" data-t="delaudio"></button><button id="reset" class="sec" data-t="reset"></button><p class="muted">ITQAN QURAN v6</p></section>
-</main>
-<nav><button data-v="list" data-t="coran"></button><button data-v="prog" data-t="prog"></button><button data-v="set" data-t="set"></button></nav>
+<header id="hd" hidden><button id="back">←</button><h1 id="title"></h1></header>
+<section id="s-splash" class="hero"><div class="arch">القرآن</div><h1 class="logo">ITQAN<br>QURAN</h1><p data-t="tag"></p>
+<div class="langs"><button data-l="fr">🌐 Français <span>›</span></button><button data-l="en">🇬🇧 English <span>›</span></button><button data-l="ar">🇸🇦 العربية <span>›</span></button></div><p class="slog" data-t="slogan"></p><svg class="sky" viewBox="0 0 400 90" preserveAspectRatio="none"><use href="#sk"/></svg></section>
+<section id="s-home" class="hero" hidden><div class="book">📖</div><h1 class="logo sm">ITQAN QURAN</h1><p data-t="sub"></p>
+<div class="tiles"><button class="tile c1" data-go="list"><i>📗</i><b data-t="t1"></b><small data-t="t1s"></small></button><button class="tile c2" data-go="list" data-m="rec"><i>🎙️</i><b data-t="t2"></b></button><button class="tile c3" data-go="tajwid"><i>🎓</i><b data-t="t3"></b></button><button class="tile c4" data-go="prog"><i>📊</i><b data-t="t4"></b></button><button class="tile c5" data-go="set"><i>⚙️</i><b data-t="t5"></b></button><button class="tile c6" data-go="about"><i>ℹ️</i><b data-t="t6"></b></button></div><svg class="sky" viewBox="0 0 400 90" preserveAspectRatio="none"><use href="#sk"/></svg></section>
+<svg width="0" height="0" style="position:absolute"><defs><g id="sk"><g fill="#06281d"><rect y="72" width="400" height="18"/><path d="M110 72v-22a28 28 0 0 1 56 0v22z"/><path d="M190 72v-34a38 38 0 0 1 76 0v34z"/><rect x="84" y="22" width="8" height="50"/><rect x="292" y="22" width="8" height="50"/><path d="M82 22l6-16 6 16zM290 22l6-16 6 16z"/></g><g fill="#f6cf6b"><rect x="104" y="58" width="5" height="9"/><rect x="226" y="52" width="6" height="14"/></g></g></defs></svg>
+<section id="s-list" class="pg" hidden><input id="q" type="search" autocomplete="off"><div id="surahs"></div></section>
+<section id="s-read" class="pg" hidden>
+<div class="vcard"><span id="cnt"></span><div id="ayah" class="ar big"></div><div id="tl" class="tl"></div><div id="tr" class="trbox"></div></div>
+<div class="microw"><button id="prev" class="rnd">‹</button><button id="mic" class="micbtn">🎙</button><button id="next" class="rnd">›</button></div><p id="micmsg" class="cen"></p>
+<div class="row"><button id="play" class="sec"></button><button id="rep" class="sec">↻</button><button id="learn" class="sec"></button><button id="fav" class="sec"></button></div>
+<div id="fb"></div>
+<div class="bar"><b data-t="listh"></b><label><input type="checkbox" id="only"> <span data-t="only"></span></label></div>
+<button id="dl" class="sec wide" data-t="dl"></button><small class="muted" data-t="leg"></small><div id="verses"></div></section>
+<section id="s-tajwid" class="pg" hidden></section>
+<section id="s-prog" class="pg" hidden><div id="ring"><span id="pct"></span></div><p id="vcnt" class="cen muted"></p><div id="stats"></div><div class="enc">🏆 <span data-t="enc"></span></div><h3 data-t="favs"></h3><div id="favlist"></div></section>
+<section id="s-set" class="pg" hidden></section>
+<section id="s-about" class="pg" hidden><div class="tj"><h3>ITQAN QURAN · v8</h3><p data-t="aboutx"></p><p class="note" data-t="note"></p></div></section>
 <script src="match.js"></script><script src="app.js"></script></body></html>
