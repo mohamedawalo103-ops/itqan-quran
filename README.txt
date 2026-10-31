@@ -9,3 +9,5 @@ v8 : audio enregistrable hors ligne (par sourate, ~1 Mo/10 s : attention aux lon
 Si la page s'affiche sans style (ouverte depuis le gestionnaire de fichiers), utilise ITQAN_QURAN_fichier_unique.html pour un aperçu. Micro, installation et audio hors ligne exigent un hébergement HTTPS.
 
 v8 : nouveau design (écran de langue, accueil à tuiles, liste, récitation, Tajwid, progression, réglages) d'après la maquette.
+
+v9 : récitation complète avec bouton Corriger (correction + audio des versets à revoir), téléchargement hors ligne par sourate (texte + audio) depuis la liste ou la page de lecture.
