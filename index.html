@@ -1,0 +1,11 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b5d3b"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><link rel="stylesheet" href="style.css"><title>ITQAN QURAN</title></head><body>
+<header><button id="back" hidden>←</button><h1 id="title">ITQAN QURAN</h1></header>
+<main>
+<section id="v-list"><input id="q" type="search" autocomplete="off"><div id="surahs"></div></section>
+<section id="v-read" hidden><div class="bar"><label><input type="checkbox" id="only"> <span data-t="only"></span></label><b id="cnt"></b></div><button id="dl" class="sec" data-t="dl"></button><small class="muted" data-t="leg"></small><div id="verses"></div>
+<div id="dock"><div class="row"><button id="play" data-t="play"></button><button id="rep">↻</button><button id="mic" data-t="mic"></button></div><div class="row"><button id="learn" class="sec"></button><button id="fav" class="sec"></button></div><div id="fb"></div></div></section>
+<section id="v-prog" hidden><div id="ring"><span id="pct"></span></div><div id="stats"></div><h3 data-t="favs"></h3><div id="favlist"></div></section>
+<section id="v-set" hidden><h3 data-t="lang"></h3><select id="lang"><option value="fr">Français</option><option value="en">English</option><option value="ar">العربية</option></select><p class="note" data-t="note"></p><button id="delaudio" class="sec" data-t="delaudio"></button><button id="reset" class="sec" data-t="reset"></button><p class="muted">ITQAN QURAN v6</p></section>
+</main>
+<nav><button data-v="list" data-t="coran"></button><button data-v="prog" data-t="prog"></button><button data-v="set" data-t="set"></button></nav>
+<script src="match.js"></script><script src="app.js"></script></body></html>
