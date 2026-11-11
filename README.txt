@@ -11,3 +11,5 @@ Si la page s'affiche sans style (ouverte depuis le gestionnaire de fichiers), ut
 v8 : nouveau design (écran de langue, accueil à tuiles, liste, récitation, Tajwid, progression, réglages) d'après la maquette.
 
 v9 : récitation complète avec bouton Corriger (correction + audio des versets à revoir), téléchargement hors ligne par sourate (texte + audio) depuis la liste ou la page de lecture.
+
+v10 : mode écoute (tuile Le Coran) avec lecture continue, précédent/suivant et répétition de verset ; mode Réciter séparé ; téléchargement hors ligne plus robuste (3 essais, repli no-cors) ; service worker v10.
