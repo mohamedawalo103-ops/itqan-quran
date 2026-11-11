@@ -15,3 +15,5 @@ v9 : récitation complète avec bouton Corriger (correction + audio des versets 
 v10 : mode écoute (tuile Le Coran) avec lecture continue, précédent/suivant et répétition de verset ; mode Réciter séparé ; téléchargement hors ligne plus robuste (3 essais, repli no-cors) ; service worker v10.
 
 v11 : micro corrigé. « Verset par verset » : un toucher lance la dictée, elle s’arrête seule quand le verset est terminé (ou après un silence) puis corrige. « Récitation complète » : elle attend jusqu’à ce que tu touches ⏹ ou « Corriger ».
+v12 : correctif dictée : si l'arrêt du micro échoue, la dernière phrase reconnue n'est plus perdue.
+v13 : micro plus sensible (amplification x3 + compresseur, réglage « Amplifier le micro » dans Paramètres, repli automatique si rien n'est capté). Le micro ne s'arrête plus au moindre silence : 12 s de pause en cours de verset, 2 s après la fin du verset, 20 s si rien n'est dit. Relance de la reconnaissance plus robuste (3 essais).
